@@ -76,7 +76,7 @@ async def lyric(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await context.bot.delete_message(chat_id=loading_message.chat_id, message_id=loading_message.message_id)
 
 # 处理按钮点击的回调函数
-async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE, music_name):
+async def lyric_button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE, music_name):
     query = update.callback_query
     await query.answer()  # 响应回调
     

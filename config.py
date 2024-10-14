@@ -4,6 +4,7 @@ SEARCH_URL = 'http://127.0.0.1:3000/search?limit=1&type=1&keywords={}'
 PLAYLIST_URL = "http://127.0.0.1:3000/playlist/track/all?id={}&limit={}&offset={}"
 LYRIC_URL = "http://127.0.0.1:3000/lyric?id={}"
 COVER_URL = "http://127.0.0.1:3000/song/dynamic/cover?id={}"
+PLAYLIST_FOLDER = './playlist/'
 COOKIES = {
     '__remember_me': 'true',
     'NMTID': '',
